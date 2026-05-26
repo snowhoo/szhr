@@ -1,16 +1,662 @@
 ---
 layout: false
 ---
-**苏州市华荣汽车服务有限公司**
-苏州市华荣汽车服务有限公司成立于2003年，是一家以旅游客运、省际包车客运、汽车租赁。市际包、（限职工上下班接送）通勤为主要经营项目的专业汽车客运服务公司。公司秉承“诚信为本，服务至上”的企业文化理念,为苏州市通勤（上、下班接送）、旅游客运市场服务。我公司经营理念是以高素质的服务及最高的客户满意度为目标。立志成为苏州客运行业经营与管理服务的领先者，争创一流的客运服务品牌。
-我公司拥有客运车辆120台。我公司拥有雄厚的企业发展实力。公司主营包车客运。由于公司在几年的经营实践中，始终如一地坚持安全、优质、高效的服务宗旨，竭诚为广大客户提供一流的服务;制度健全、服务标准一流、营运质量优良，获得了广大客户的认可。
-我公司一贯注重企业人才的发掘与培养。公司管理人员均为大专以上学历，均从事多年车队运营管理工作，具有先进的管理水平和丰富的运营管理经验，驾驶员均为五年以上安全驾驶无事故的优秀驾驶员。无论是高级管理者还是普通的驾驶司机都被视为我公司生存与发展的头等要素。并投入大量资金培育和选拔优秀人才。实践证明，客户之所以选择我们，看重的除去价格因素就是我们的可靠服务。只有优秀人才队伍才能提供特色的超值的服务!全体工作人员经过多年的历练，在现有激烈的市场竞争中，培养了严谨的工作作风和良好的职业习惯。
-如今，我公司已经牢牢把握住了市场需求的风向，服务对象遍及苏州园区、吴中区、吴江区、新区、及各大企业、学校。
-苏州市华荣汽车客运服务有限公司真诚地希望能有机会为贵公司提供高标准的优质客运服务！
- 
-**Suzhou Huarong Automobile Service Co., Ltd.**
-Suzhou Huarong Automobile Service Co., Ltd. was established in 2003. It is a professional passenger transport company primarily engaged in tourist passenger transport, inter‑provincial chartered passenger transport, car rental, inter‑city chartered passenger transport, and commuter services (limited to employee shuttle services). The company adheres to the corporate culture philosophy of “integrity first, service supreme” and serves the commuter (employee shuttle) and tourist passenger transport markets in Suzhou. Our business philosophy is to deliver high‑quality services and maximize customer satisfaction. We aspire to become a leader in operation and management services within Suzhou’s passenger transport industry and strive to create a first‑class passenger transport service brand.
-The company owns 120 passenger vehicles and possesses strong enterprise development capabilities. Our main business is chartered passenger transport. Over years of operational practice, we have consistently upheld the service tenet of safety, quality, and efficiency, dedicating ourselves to providing first‑class services to our customers. With well‑established systems, top‑tier service standards, and excellent operational quality, we have earned wide recognition from our clients.
-We have always attached great importance to the identification and cultivation of corporate talent. All of our management staff hold college degrees or above, have many years of experience in fleet operation management, and possess advanced management skills and extensive operational expertise. All our drivers are outstanding professionals with over five years of accident‑free safe driving experience. Both senior managers and ordinary drivers are regarded as the foremost asset for the survival and growth of our company. We have invested substantial resources in nurturing and selecting outstanding talent. Practice has shown that what our clients value most—aside from pricing—is our reliable service. Only an exceptional team can provide distinctive and value‑added services! After years of training and working in a fiercely competitive market, all our staff have developed rigorous work ethics and good professional habits.
-Today, our company has firmly grasped the direction of market demand, serving clients across Suzhou Industrial Park, Wuzhong District, Wujiang District, the New District, as well as numerous enterprises and schools.
-Suzhou Huarong Automobile Service Co., Ltd. sincerely looks forward to the opportunity to provide your esteemed company with high‑standard, quality passenger transport services.
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>华荣汽车 | 专业班车运营服务商</title>
+    <!-- Font Awesome 6 (免费图标库) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', Roboto, 'Helvetica Neue', sans-serif;
+            background-color: #ffffff;
+            color: #1e2a3e;
+            line-height: 1.5;
+            scroll-behavior: smooth;
+        }
+
+        /* 容器 */
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* 头部导航 */
+        .navbar {
+            position: sticky;
+            top: 0;
+            background: rgba(255, 255, 255, 0.96);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+            z-index: 1000;
+            border-bottom: 1px solid #eef2f6;
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 16px 24px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .logo h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #0A5C8E, #1C8BC1);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            letter-spacing: -0.3px;
+        }
+
+        .logo span {
+            font-size: 0.9rem;
+            font-weight: normal;
+            color: #5a6e7c;
+            display: block;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            font-weight: 500;
+            color: #1f3b4c;
+            transition: 0.2s;
+            font-size: 1rem;
+        }
+
+        .nav-links a:hover {
+            color: #1C8BC1;
+        }
+
+        /* 移动端菜单简化（响应式） */
+        @media (max-width: 900px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 12px;
+            }
+            .nav-links {
+                justify-content: center;
+                gap: 18px;
+            }
+        }
+
+        /* 通用区块 */
+        section {
+            padding: 80px 0;
+            border-bottom: 1px solid #f0f2f5;
+        }
+        .section-bg-light {
+            background-color: #f9fbfd;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: #0f2b38;
+        }
+        .section-sub {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 48px auto;
+            color: #4a6272;
+            font-size: 1.1rem;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(120deg, #F0F9FF 0%, #E6F0F8 100%);
+            padding: 80px 0 100px;
+        }
+        .hero-grid {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+        }
+        .hero-content {
+            flex: 1;
+        }
+        .hero-badge {
+            background: #D4E7F1;
+            display: inline-block;
+            padding: 6px 16px;
+            border-radius: 40px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #0A5C8E;
+            margin-bottom: 20px;
+        }
+        .hero-content h2 {
+            font-size: 3.2rem;
+            font-weight: 800;
+            line-height: 1.2;
+            color: #0f2b38;
+            margin-bottom: 20px;
+        }
+        .hero-content p {
+            font-size: 1.2rem;
+            color: #2c4b60;
+            margin-bottom: 32px;
+        }
+        .btn-group {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .btn-primary {
+            background: #1C8BC1;
+            color: white;
+            border: none;
+            padding: 12px 32px;
+            border-radius: 40px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.2s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn-primary:hover {
+            background: #0f6d9c;
+            transform: translateY(-2px);
+        }
+        .btn-outline {
+            background: transparent;
+            border: 1.5px solid #1C8BC1;
+            color: #1C8BC1;
+            padding: 12px 32px;
+            border-radius: 40px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+        .btn-outline:hover {
+            background: #e6f4ff;
+        }
+        .hero-stats {
+            flex: 0.8;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            background: white;
+            padding: 32px;
+            border-radius: 40px;
+            box-shadow: 0 20px 35px -12px rgba(0,0,0,0.08);
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2.6rem;
+            font-weight: 800;
+            color: #1C8BC1;
+            line-height: 1;
+        }
+
+        /* 卡片网格 */
+        .grid-2col, .grid-3col, .grid-4col {
+            display: grid;
+            gap: 32px;
+        }
+        .grid-2col { grid-template-columns: repeat(2, 1fr); }
+        .grid-3col { grid-template-columns: repeat(3, 1fr); }
+        .grid-4col { grid-template-columns: repeat(4, 1fr); }
+
+        @media (max-width: 900px) {
+            .grid-2col, .grid-3col, .grid-4col { grid-template-columns: 1fr; }
+        }
+
+        .card {
+            background: white;
+            border-radius: 28px;
+            padding: 28px 24px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.02), 0 2px 6px rgba(0,0,0,0.03);
+            transition: all 0.2s ease;
+            border: 1px solid #edf2f7;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 30px -12px rgba(0, 0, 0, 0.1);
+            border-color: #cbdde9;
+        }
+        .card-icon {
+            font-size: 2.5rem;
+            color: #1C8BC1;
+            margin-bottom: 20px;
+        }
+        .card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+        }
+        .team-card {
+            background: #fefefe;
+        }
+        .contact-info {
+            background: #eef3fa;
+            border-radius: 28px;
+            padding: 24px;
+        }
+
+        /* 评价 */
+        .testimonial-card {
+            background: #ffffff;
+            border-left: 5px solid #1C8BC1;
+        }
+        .badge {
+            background: #eef2ff;
+            color: #1C8BC1;
+            border-radius: 40px;
+            padding: 4px 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        footer {
+            background: #0f2b38;
+            color: #cfdfe8;
+            padding: 48px 0 24px;
+        }
+        .footer-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 32px;
+            margin-bottom: 48px;
+        }
+        .footer-copyright {
+            text-align: center;
+            border-top: 1px solid #244c5e;
+            padding-top: 24px;
+            font-size: 0.85rem;
+        }
+        a {
+            text-decoration: none;
+        }
+        .text-accent {
+            color: #1C8BC1;
+        }
+        .mt-2 {
+            margin-top: 12px;
+        }
+        .inline-icon {
+            margin-right: 8px;
+            color: #1C8BC1;
+        }
+        hr {
+            margin: 32px 0;
+            border-color: #e2e8f0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>华荣汽车</h1>
+                <span>专业 · 安全 · 可靠</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#advantages">核心优势</a></li>
+                <li><a href="#vehicles">车辆保险</a></li>
+                <li><a href="#drivers">司机团队</a></li>
+                <li><a href="#quality">服务监督</a></li>
+                <li><a href="#certificates">资质证书</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero 区 -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="hero-badge"><i class="fas fa-bus"></i> 企业班车运营专家</div>
+                <h2>华荣汽车服务方案<br>专业、安全、可靠的班车运营</h2>
+                <p>2003年成立 · 120台自有车辆 · 20余年行业深耕 | 为您的员工通勤保驾护航</p>
+                <div class="btn-group">
+                    <a href="#contact" class="btn-primary">获取报价 <i class="fas fa-arrow-right"></i></a>
+                    <a href="#certificates" class="btn-outline">查看资质</a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item"><div class="stat-number">20+</div><div>年专业经验</div></div>
+                <div class="stat-item"><div class="stat-number">120</div><div>运营车辆</div></div>
+                <div class="stat-item"><div class="stat-number">60万</div><div>座位险/人</div></div>
+                <div class="stat-item"><div class="stat-number">100万</div><div>三者险保障</div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 公司简介 -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">关于华荣</div>
+            <div class="section-sub">以诚信为本，服务至上，打造一流客运品牌</div>
+            <div class="grid-2col">
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-flag-checkered"></i></div>
+                    <h3>深耕苏州20余载</h3>
+                    <p>成立于2003年，是苏州市较早从事包车客运的企业之一。拥有超过20年专业客运服务经验，累计服务数百家企事业单位。</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>企业硬实力</h3>
+                    <p>公司拥有客运车辆120台，管理人员均为大专以上学历，管理制度健全，营运质量优良，获得广大客户的深度认可与信赖。</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-handshake"></i></div>
+                    <h3>经营理念</h3>
+                    <p>秉承“诚信为本，服务至上”核心理念，以高素质服务和高客户满意度为目标，争创行业领先的客运服务品牌。</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>安全合规承诺</h3>
+                    <p>安全生产标准化一级达标，ISO9001质量管理体系认证，所有车辆及驾驶员均符合国家最高运营标准。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 核心优势概览（服务承诺 + 管理团队部分亮点） -->
+    <section id="advantages" class="section-bg-light">
+        <div class="container">
+            <div class="section-title">核心优势</div>
+            <div class="section-sub">高效协同 · 快速响应 · 全程无忧</div>
+            <div class="grid-3col">
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-user-tie"></i></div>
+                    <h3>专职调度负责</h3>
+                    <p>指派专职调度人员，全天候负责贵公司班车运行调度，确保线路顺畅、发车准时，规避运营延误风险。</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-bell"></i></div>
+                    <h3>问题及时响应</h3>
+                    <p>建立快速响应机制，对运行问题及时发现、处理，保障服务不间断，让企业员工通勤更安心。</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-people-arrows"></i></div>
+                    <h3>高效协同处理</h3>
+                    <p>调度、司机、安全机务人员紧密协作，形成高效解决网络，妥善应对突发情况，服务质量有保障。</p>
+                </div>
+            </div>
+
+            <div style="margin-top: 48px;">
+                <h3 style="text-align: center; margin-bottom: 32px;">管理团队 — 专业保障</h3>
+                <div class="grid-3col">
+                    <div class="card team-card">
+                        <i class="fas fa-user-circle card-icon" style="font-size: 2rem;"></i>
+                        <h3>胡玉芹</h3>
+                        <p>副总经理</p>
+                        <p>全面负责项目运营与管理，拥有丰富行业经验和卓越领导能力。</p>
+                        <p><i class="fas fa-phone-alt inline-icon"></i> 133 7518 3588</p>
+                    </div>
+                    <div class="card team-card">
+                        <i class="fas fa-tachometer-alt card-icon"></i>
+                        <h3>查伟</h3>
+                        <p>调度负责人</p>
+                        <p>车辆调度与日常运营监控，确保班车准点率与运行效率。</p>
+                        <p><i class="fas fa-phone-alt inline-icon"></i> 137 7175 1988</p>
+                    </div>
+                    <div class="card team-card">
+                        <i class="fas fa-wrench card-icon"></i>
+                        <h3>王奎生</h3>
+                        <p>安全机务</p>
+                        <p>车辆安全检查与技术维护，确保所有车辆处于最佳运行状态。</p>
+                        <p><i class="fas fa-phone-alt inline-icon"></i> 137 7177 2958</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 车辆及保险保障 -->
+    <section id="vehicles">
+        <div class="container">
+            <div class="section-title">高标准车辆 & 全面保险</div>
+            <div class="section-sub">安全硬件与风险保障双防线，让您的员工安心启程</div>
+            <div class="grid-2col">
+                <div class="card">
+                    <h3><i class="fas fa-bus card-icon"></i> 车辆配置</h3>
+                    <ul style="list-style: none; margin-top: 16px;">
+                        <li><i class="fas fa-check-circle text-accent"></i> 合规车辆：全部符合国家道路运输管理规定</li>
+                        <li><i class="fas fa-check-circle text-accent"></i> 基础设施齐全：空调、舒适座椅，冬暖夏凉</li>
+                        <li><i class="fas fa-check-circle text-accent"></i> 干净整洁：严格车辆卫生标准，营造健康环境</li>
+                        <li><i class="fas fa-check-circle text-accent"></i> 安全舒适：定期维护保养，车况极佳</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-shield-virus card-icon"></i> 保险方案</h3>
+                    <ul style="list-style: none; margin-top: 16px;">
+                        <li><i class="fas fa-user-shield text-accent"></i> 座位险保障：每座赔偿不低于<strong>60万元</strong></li>
+                        <li><i class="fas fa-car-crash text-accent"></i> 第三者责任险：保额<strong>100万元</strong>，转移事故赔偿责任</li>
+                        <li><i class="fas fa-file-invoice-dollar text-accent"></i> 双重保险，全方位守护乘客权益</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="background: #EFF6FC; border-radius: 28px; padding: 24px; margin-top: 32px; text-align: center;">
+                <i class="fas fa-medal" style="font-size: 2rem; color: #1C8BC1;"></i>
+                <p style="margin-top: 12px; font-weight: 500;">每台车均购置高额座位险 + 三者险，为每一次出行构建坚实防线。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 司机团队管理 -->
+    <section id="drivers" class="section-bg-light">
+        <div class="container">
+            <div class="section-title">金牌司机团队</div>
+            <div class="section-sub">五年以上驾龄 · 持证上岗 · 零责任事故记录</div>
+            <div class="grid-2col">
+                <div class="card">
+                    <h3><i class="fas fa-id-card"></i> 严格选拔标准</h3>
+                    <p>✔ 全部持有道路运输人员从业资格证<br>
+                    ✔ 5年以上大客车驾驶经验，熟悉各类路况<br>
+                    ✔ 无交通责任事故记录，安全意识极强<br>
+                    ✔ 品德优良，责任心出众</p>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-user-check"></i> 规范服务行为</h3>
+                    <p>✨ 统一着装，干净整洁，展现专业形象<br>
+                    ✨ 出车精神饱满，服务热情耐心<br>
+                    ✨ 严格遵守甲方规章制度，提供贴心服务<br>
+                    ✨ 注重礼仪，营造和谐乘车氛围</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 服务质量监督 + 真实客户评价 -->
+    <section id="quality">
+        <div class="container">
+            <div class="section-title">服务质量监督</div>
+            <div class="section-sub">倾听您的声音，持续改进服务</div>
+            <div class="grid-3col" style="margin-bottom: 48px;">
+                <div class="card">
+                    <i class="fas fa-comments card-icon"></i>
+                    <h3>多渠道反馈</h3>
+                    <p>满意度调查表、电话回访、线上问卷……让客户的建议即时传达。</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-chart-pie card-icon"></i>
+                    <h3>定期调查分析</h3>
+                    <p>定期统计分析满意度数据，精准把握客户需求与服务短板。</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-sync-alt card-icon"></i>
+                    <h3>针对性改进措施</h3>
+                    <p>基于调查结果制定改进策略，落实到具体工作，不断提升服务体验。</p>
+                </div>
+            </div>
+
+            <div style="background: white; border-radius: 32px; padding: 24px; box-shadow: 0 5px 20px rgba(0,0,0,0.02);">
+                <h3 style="text-align: center; margin-bottom: 24px;"><i class="fas fa-star" style="color: #f4b942;"></i> 真实客户评价</h3>
+                <div class="grid-3col">
+                    <div class="testimonial-card card">
+                        <div class="badge" style="margin-bottom: 12px;">★★★★★ 很满意</div>
+                        <p><strong>苏州特雷卡电缆有限公司</strong></p>
+                        <p>“发车正点、服务态度、车容车貌、信息反馈、事故处理、综合服务质量均表示‘很满意’。”</p>
+                    </div>
+                    <div class="testimonial-card card">
+                        <div class="badge" style="margin-bottom: 12px;">★★★★☆ 满意</div>
+                        <p><strong>苏州西门子电器有限公司</strong></p>
+                        <p>“除信息反馈外，其余各项服务均获得‘很满意’或‘满意’评价，合作非常愉快。”</p>
+                    </div>
+                    <div class="testimonial-card card">
+                        <div class="badge" style="margin-bottom: 12px;">★★★★☆ 优质提升</div>
+                        <p><strong>苏州东瑞制药有限公司</strong></p>
+                        <p>“发车正点、车容车貌、综合服务质量‘很满意’，服务态度持续优化中，响应迅速。”</p>
+                    </div>
+                </div>
+                <p style="margin-top: 24px; font-style: italic; background: #F4F9FE; padding: 16px; border-radius: 24px;"><i class="fas fa-chart-line"></i> 针对客户反馈，我司已在服务态度提升方面重点改进，致力于成为更温暖的班车服务商。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 资质证书展示（经营许可、安全生产、ISO、道路运输证） -->
+    <section id="certificates" class="section-bg-light">
+        <div class="container">
+            <div class="section-title">资质认证 · 合规保障</div>
+            <div class="section-sub">一级达标企业，ISO认证，合法运营资质一应俱全</div>
+            <div class="grid-2col">
+                <div class="card">
+                    <i class="fas fa-building card-icon"></i>
+                    <h3>工商资质</h3>
+                    <p>统一社会信用代码：<strong>913205067473331024</strong><br>
+                    企业类型：有限责任公司（自然人投资或控股）<br>
+                    成立日期：2003年03月24日<br>
+                    登记机关：苏州市市场监督管理局<br>
+                    经营范围：县际包车客运、市区包车客运(限职工上下班接送)、市际包车客运等。</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-shield-alt card-icon"></i>
+                    <h3>安全生产标准化一级达标</h3>
+                    <p>证书编号：<strong>2019-01-109244</strong><br>
+                    有效期：2023年4月01日 至 2026年3月31日<br>
+                    道路运输企业安全等级：<strong>一级</strong><br>
+                    彰显卓越安全管理体系。</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-certificate card-icon"></i>
+                    <h3>ISO9001质量管理体系认证</h3>
+                    <p>证书编号：<strong>41621QZ639JRO</strong><br>
+                    认证范围：城市包车、市际包车、旅游客运服务<br>
+                    发证日期：2024年02月29日 有效期至：2027年02月28日<br>
+                    服务流程标准化、规范化。</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-truck card-icon"></i>
+                    <h3>道路运输经营许可证</h3>
+                    <p>许可证号：<strong>苏交运管许可苏字 320506000195号</strong><br>
+                    业户名称：苏州市华荣汽车服务有限公司<br>
+                    经营范围：县际、市际、省际及市区包车客运、旅游客运、汽车租赁<br>
+                    有效期至：<strong>2027年04月20日</strong><br>
+                    发证机关：吴中区交通运输局</p>
+                </div>
+            </div>
+            <div class="contact-info" style="margin-top: 32px; text-align: center;">
+                <i class="fas fa-database"></i> 正规运营资质 · 20年诚信经营 · 值得信赖的出行伙伴
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">联系我们</div>
+            <div class="section-sub">7x24小时为您服务，专业团队快速响应</div>
+            <div class="grid-2col" style="align-items: center;">
+                <div>
+                    <div class="card" style="background: #0f2b38; color: white;">
+                        <h3 style="color: white;"><i class="fas fa-phone-alt"></i> 业务咨询</h3>
+                        <p style="font-size: 1.8rem; font-weight: 700; margin: 16px 0;">133 7518 3588</p>
+                        <p><i class="fas fa-fax"></i> 公司传真：0512-65242435</p>
+                        <p><i class="fas fa-envelope"></i> 业务邮箱：huarongauto@163.com (可咨询)</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 地址：苏州工业园区唯华路5号君风生活广场3幢502室</p>
+                        <p><i class="fas fa-mail-bulk"></i> 邮政编码：215000</p>
+                        <hr style="background: #2c5c70;">
+                        <p><i class="fas fa-user-tie"></i> 副总经理胡玉芹 · 24h调度热线</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>合作意向留言</h3>
+                    <p>立即致电或发送需求，我们提供免费班车运营评估与方案设计。</p>
+                    <ul style="margin-top: 16px; list-style: none;">
+                        <li><i class="fas fa-check-circle text-accent"></i> 专属班车线路规划</li>
+                        <li><i class="fas fa-check-circle text-accent"></i> 灵活合作模式</li>
+                        <li><i class="fas fa-check-circle text-accent"></i> 安全标准化体系</li>
+                    </ul>
+                    <div style="margin-top: 24px;">
+                        <a href="tel:13375183588" class="btn-primary" style="display: inline-block;">立即联系 →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3 style="color: white;">华荣汽车</h3>
+                    <p>专业班车运营解决方案提供商</p>
+                    <div class="mt-2">
+                        <i class="fab fa-weixin"></i> 官方服务号 · 华荣客运
+                    </div>
+                </div>
+                <div>
+                    <h4 style="color: white;">快速链接</h4>
+                    <p><a href="#about" style="color: #bed9ee;">关于我们</a></p>
+                    <p><a href="#vehicles" style="color: #bed9ee;">车辆保险</a></p>
+                    <p><a href="#certificates" style="color: #bed9ee;">资质证书</a></p>
+                </div>
+                <div>
+                    <h4 style="color: white;">服务范围</h4>
+                    <p>企业班车 / 职工通勤 / 旅游包车 / 市际省际客运</p>
+                    <p>ISO9001认证 & 安全一级达标</p>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                © 2026 苏州市华荣汽车服务有限公司 | 版权所有 | 诚信为本 · 安全护航
+            </div>
+        </div>
+    </footer>
+
+    <!-- 平滑滚动增强 -->
+    <script>
+        document.querySelectorAll('.nav-links a, .btn-primary, .btn-outline').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const hash = this.getAttribute('href');
+                if (hash && hash.startsWith('#')) {
+                    e.preventDefault();
+                    const target = document.querySelector(hash);
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
